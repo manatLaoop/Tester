@@ -9,7 +9,8 @@ num Tests({required String inputStrings}) {
     return 0;
   } else {
     for (var i = 0; i < inputStrings.length; i++) {
-      CharCount[inputStrings[i]] = [];
+      // CharCount[] = [];
+      CharCount.containsKey('key');
     }
     for (var i = 0; i < inputStrings.length; i++) {
       CharCount[inputStrings[i]]!.add(inputStrings[i]);

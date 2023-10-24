@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:testpp/src/screen/popup.dart';
+import 'package:testpp/src/screen/test.dart';
 import 'package:testpp/src/util/test.dart';
 
 void main() {
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-        home: Popup());
+        home: Testss());
   }
 }
 
@@ -43,7 +44,7 @@ class _TestState extends State<Test> {
     var Ex = Tests(
       inputStrings: 'gggdaddd',
     );
-    print(Ex);
+
     return const Scaffold(
       body: Center(
         child: Text(''),

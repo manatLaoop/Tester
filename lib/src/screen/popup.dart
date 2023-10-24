@@ -44,7 +44,9 @@ class _PopupState extends State<Popup> {
                                 Text(
                                   'Banana',
                                   style: Textstyles(
-                                      colors: Colors.black, Fsize: 18),
+                                      colors: Colors.black,
+                                      Fsize: 18,
+                                      Fweight: FontWeight.bold),
                                 ),
                                 const SizedBox(
                                   height: 5,
@@ -102,7 +104,7 @@ class _PopupState extends State<Popup> {
                                           Fweight: FontWeight.bold),
                                     ),
                                     Text(
-                                      '  ปิด 18.00 น.',
+                                      'ปิด 18.00 น.',
                                       style: Textstyles(
                                           colors: Color.fromARGB(
                                               255, 174, 174, 173),
@@ -171,7 +173,7 @@ class _PopupState extends State<Popup> {
                                 color: Colors.red,
                               )),
                         ),
-                        SizedBox(
+                        const SizedBox(
                           width: 10,
                         ),
                         SingleChildScrollView(
